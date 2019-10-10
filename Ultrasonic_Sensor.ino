@@ -1,7 +1,7 @@
 #include <Servo.h>
 Servo servoMain; // Define our Servo
-int trigpin = 10;
-int echopin = 11;
+int trigpin = 11;  // Define Pin on uno 
+int echopin = 12;
 int distance;
 float duration;
 float cm;
